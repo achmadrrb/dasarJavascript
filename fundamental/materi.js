@@ -9,3 +9,7 @@
     7. Switch Case Statement
     8. Loop
 */
+
+// 1. console.log 
+
+console.log("Hello Achmad Rifki")
