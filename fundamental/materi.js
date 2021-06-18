@@ -14,3 +14,11 @@
 
 console.log("Hello Achmad Rifki"); // console.log method for print text 
 
+// 2. Comments
+
+//This is for 1 line comment
+
+/* 
+    This is for multiple line comments
+    You can add anything in here
+*/
