@@ -12,4 +12,5 @@
 
 // 1. console.log 
 
-console.log("Hello Achmad Rifki")
+console.log("Hello Achmad Rifki"); // console.log method for print text 
+
