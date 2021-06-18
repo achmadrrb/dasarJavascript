@@ -50,7 +50,6 @@ console.log(odd);
 */
 
 const even = 6;
-even = 7;
 console.log(even);
 
 /* 
@@ -58,3 +57,41 @@ console.log(even);
     error
     Because we use "const" that means unchangeable
 */
+
+/*
+    4. Tipe Data
+        a. Undefined
+        b. Numbers
+        c. BigInt
+        d. Strings
+        e. Boolean
+        f. Null
+        g. Symbol
+*/
+
+let animal; // Undefined
+console.log(typeof(animal));
+
+let oddNumber = 3; // Numbers
+console.log(typeof(odd));
+
+const bigInteger = 12345677123123123454545457373737n // BigInt end with "n"
+console.log(typeof(bigInteger));
+
+const smallNumber = 123n // This is BigInt too, because there is an "n" at the end of number
+console.log(typeof(smallNumber));
+
+const myName = "Achmad" // Strings
+console.log(typeof(myName));
+
+let isMarried = false // Boolean
+console.log(typeof(isMarried));
+
+let money = null // Null value. We use null value when we don't need any values yet and we want to set the value later
+console.log(typeof(money));
+
+const id_mhs = Symbol("id") // Symbol
+console.log(typeof(id_mhs));
+
+const id_dosen = Symbol("id") // Symbol too and not error
+console.log(typeof(id_dosen));
