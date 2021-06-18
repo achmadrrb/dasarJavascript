@@ -22,3 +22,39 @@ console.log("Hello Achmad Rifki"); // console.log method for print text
     This is for multiple line comments
     You can add anything in here
 */
+
+/* 
+    3. Variable
+
+    a. var
+    b. const
+    c. let
+*/
+
+var firstName = "Achmad";
+console.log(firstName);
+
+/* 
+    Output:
+    Achmad
+*/
+
+let odd = 5;
+odd = 6;
+console.log(odd);
+
+/* 
+    Output:
+    6
+    Because we use "let" that means changeable
+*/
+
+const even = 6;
+even = 7;
+console.log(even);
+
+/* 
+    Output:
+    error
+    Because we use "const" that means unchangeable
+*/
